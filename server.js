@@ -1,6 +1,5 @@
 const express = require('express')
 const dotenv = require('dotenv').config()
-const routesFromContactRoutes =  require('./routes/contactRoutes');
 const errorHandler = require('./middleware/errorHandler');
 const connectDB = require('./config/dbConnection');
 
