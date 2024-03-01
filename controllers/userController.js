@@ -2,6 +2,7 @@ const asyncHandler = require('express-async-handler')
 const User = require("../models/userModel")
 const bcrypt = require('bcrypt')
 const jwt = require('jsonwebtoken')
+const dotenv = require('dotenv')
 
 //@public route,POST method
 const registerUser = asyncHandler( async (req,res) => {
